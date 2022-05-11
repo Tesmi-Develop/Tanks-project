@@ -11,4 +11,4 @@ direction += rotation_speed;
 var direction_vector = Vector2(0, 0).set_angle(-direction, false);
 var movement_vector = direction_vector.multi(Vector2(movement_speed));
 
-position_add(movement_vector)
+position_add(movement_vector);

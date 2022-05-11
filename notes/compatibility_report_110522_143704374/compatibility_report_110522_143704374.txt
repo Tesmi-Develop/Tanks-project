@@ -1,0 +1,88 @@
+Converting GML script: ${project_dir}\scripts\scr_event_initialize\scr_event_initialize.gml
+Converted description /// @description scr_event_initialize()
+
+Converting GML script: ${project_dir}\scripts\scr_event_cleanup\scr_event_cleanup.gml
+Converted description /// @description scr_event_cleanup()
+
+Converting GML script: ${project_dir}\scripts\scr_event_create\scr_event_create.gml
+Converted description /// @description scr_event_create(unique_event_name [optional])/// @param unique_event_name [optional]
+
+Converting GML script: ${project_dir}\scripts\scr_event_destroy\scr_event_destroy.gml
+Converted description /// @description scr_event_destroy(event_key)/// @param event_key
+
+Converting GML script: ${project_dir}\scripts\scr_event_add_listener\scr_event_add_listener.gml
+Converted description /// @description scr_event_add_listener(event_key, script_reference)/// @param event_key
+/// @param  script_reference
+
+Converting GML script: ${project_dir}\scripts\scr_event_add_listener_ext\scr_event_add_listener_ext.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description scr_event_add_listener_ext(event_key, instance_id, script_reference, priority)/// @param event_key
+/// @param  instance_id
+/// @param  script_reference
+/// @param  priority
+
+Converting GML script: ${project_dir}\scripts\scr_event_remove_listener\scr_event_remove_listener.gml
+Converted description /// @description scr_event_remove_listener(event_key)/// @param event_key
+
+Converting GML script: ${project_dir}\scripts\scr_event_remove_listener_ext\scr_event_remove_listener_ext.gml
+Converted description /// @description scr_event_remove_listener_ext(event_key, instance, priority ["" for all])/// @param event_key
+/// @param  instance
+/// @param  priority ["" for all]
+
+Converting GML script: ${project_dir}\scripts\scr_trigger_event\scr_trigger_event.gml
+Converted description /// @description scr_trigger_event(event_key, arg0 ...);/// @param event_key
+/// @param  arg0 ...
+
+Converting GML script: ${project_dir}\scripts\scr_trigger_event_array\scr_trigger_event_array.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'script_execute_ext' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description scr_trigger_event_array(event_key, parameter_array)/// @param event_key
+/// @param  parameter_array
+
+Converting GML script: ${project_dir}\scripts\script_execute_ext\script_execute_ext.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description script_execute_ext(script_reference, parameter_array)/// @param script_reference
+/// @param  parameter_array
+
+Converting GML script: ${project_dir}\scripts\scr_test\scr_test.gml
+Converted description /// @description scr_test()
+
+Converting GML script: ${project_dir}\scripts\scr_test_single_parameter\scr_test_single_parameter.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\scripts\scr_test_multi_parameter\scr_test_multi_parameter.gml
+Converted description /// @description scr_test_multi_parameter(item0, item1, item2)/// @param item0
+/// @param  item1
+/// @param  item2
+
+Converting GML script: ${project_dir}\objects\oEventInitializer\Create_0.gml
+Converted description /// @description  Create events
+
+Converting GML script: ${project_dir}\objects\oEventInitializer\Destroy_0.gml
+Converted description /// @description  Clean up event system
+
+Converting GML script: ${project_dir}\objects\oEventInitializer\Draw_64.gml
+Converted description /// @description  Draw help text
+
+Converting GML script: ${project_dir}\objects\oEventInitializer\KeyRelease_112.gml
+Converted description /// @description  Un-register entire Event 1
+
+Converting GML script: ${project_dir}\objects\oEventInitializer\KeyRelease_51.gml
+Converted description /// @description  Trigger event 3
+
+Converting GML script: ${project_dir}\objects\oEventInitializer\KeyRelease_50.gml
+Converted description /// @description  Trigger event 2
+
+Converting GML script: ${project_dir}\objects\oEventInitializer\KeyRelease_49.gml
+Converted description /// @description  Trigger event 1
+
+Converting GML script: ${project_dir}\objects\oListener\Create_0.gml
+Converted description /// @description  Register to events
+
+Converting GML script: ${project_dir}\objects\oListener\KeyRelease_8.gml
+Converted description /// @description  De-register instance from event
+
+String not found: ConversionLog_ScriptNameInUse
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script '__init_global.gml'

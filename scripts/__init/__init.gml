@@ -9,3 +9,21 @@ enum movement {
 	stand = 0,
 	back = -1,
 }
+
+enum damage_type {
+	kinetic,
+	thermal,
+	electric,
+}
+
+enum defense_type {
+	kinetic,
+	thermal,
+	electric,
+	general,
+}
+
+enum npc_type {
+	ally,
+	enemy,
+}
