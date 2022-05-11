@@ -1,5 +1,7 @@
 target = noone; // only type npc
 
+type_damage = noone;
+
 _speed = 0;
 
 damage = 0;
@@ -8,5 +10,10 @@ damage = 0;
 onCollision = Event();
 
 onCollision.connect(function(_arguments) {
-	if (instance_find())
+	if (!is_npc(_arguments[0])) return;
+	if (_arguments[0].npc != target) return;
+	
+	_arguments[0].try_hurt(type_damage, damage);
+	
+	instance_destroy();
 })

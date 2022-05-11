@@ -31,7 +31,7 @@ onDeath = Event();
 onHeal = Event();
 
 // methods
-__try_death = function() {
+__check_death = function() {
 	if (hp > 0) return;
 	
 	onDeath.fire();
@@ -60,7 +60,7 @@ try_hurt = function(_type_damage, _damage) {
 	// fire event hurt
 	onHurt.fire(_damage);
 	
-	__try_death();
+	__check_death();
 }
 
 heal = function(_hp) {
@@ -68,5 +68,5 @@ heal = function(_hp) {
 	
 	hp += _hp;
 	
-	__try_death();
+	__check_death();
 }
