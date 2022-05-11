@@ -68,5 +68,7 @@ heal = function(_hp) {
 	
 	hp += _hp;
 	
+	hp = clamp(hp, 0, hp_max);
+	
 	__check_death();
 }
