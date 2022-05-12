@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Events",
-    "path": "folders/Plugins/Events.yy",
+    "name": "projectile",
+    "path": "folders/Scripts/projectile.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Event",
+  "name": "Projectile",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -19,17 +19,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "projectiles",
-    "path": "folders/Objects/projectiles.yy",
+    "name": "tank_towers",
+    "path": "folders/Objects/tank_towers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_projectile",
+  "name": "obj_tank_tower",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Events",
-    "path": "folders/Plugins/Events.yy",
+    "name": "system",
+    "path": "folders/Plugins/Timers/system.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Event",
+  "name": "__init_controller",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -30,6 +30,9 @@ onHurt = Event();
 onDeath = Event();
 onHeal = Event();
 
+// inputs actions
+input_shoot = Event();
+
 // methods
 __check_death = function() {
 	if (hp > 0) return;
