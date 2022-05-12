@@ -10,5 +10,5 @@ position_add(movement_vector);
 if (place_meeting(x, y, self)) {
 	var instance = instance_place(x, y, self);
 	
-	onCollision.fire(instance);
+	onCollision.invoke(instance);
 }

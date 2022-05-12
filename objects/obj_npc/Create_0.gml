@@ -1,6 +1,6 @@
 // statistics
 hp_max = 0;
-defense = [0, 0, 0, 0];
+defense = [0, 0, 0];
 damage_reduction = 0; // changes from 0 to 1
 
 // npc type
@@ -22,56 +22,39 @@ base_rotation_speed = 0;
 speed_friction = 0.1;
 speed_acceleration = 0.1;
 
-input_movement = movement.stand;
-input_rotation = rotation.stand;
+input_movement = 0;
+input_rotation = 0;
 
 // events
-onHurt = Event();
-onDeath = Event();
-onHeal = Event();
+on_hurt = Event();
+on_death = Event();
+on_heal = Event();
 
 // inputs actions
 input_shoot = Event();
 
 // methods
-__check_death = function() {
+check_death = function() {
 	if (hp > 0) return;
 	
-	onDeath.fire();
+	on_death.invoke();
 	
 	instance_destroy();
 }
 
-try_hurt = function(_type_damage, _damage) {
+try_hurt = function(_damage, _type_damage = damage_type.kinetic) {
 	if (invulnerability) return;
 	
-	// check damage_reduction
-	damage_reduction = clamp(damage_reduction, 0, 1);
-	
-	// consider damage_reduction
-	_damage -= _damage * damage_reduction;
-	
-	// consider defense
-	_damage -= defense[defense_type.general];
 	_damage -= defense[_damage];
-	
-	// check damage
-	if (_damage <= 0) _damage = 1;
-	
+	_damage -= _damage * clamp(damage_reduction, 0, 1);
+	_damage = min(_damage, 1);
 	hp -= _damage;
 	
-	// fire event hurt
-	onHurt.fire(_damage);
-	
-	__check_death();
+	on_hurt.invoke(_damage);
 }
 
-heal = function(_hp) {
-	onHeal.fire();
+heal = function(_value) {
+	hp = min(hp + abs(_value), hp_max);
 	
-	hp += _hp;
-	
-	hp = clamp(hp, 0, hp_max);
-	
-	__check_death();
+	on_heal.invoke();
 }

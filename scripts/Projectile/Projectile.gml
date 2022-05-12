@@ -1,7 +1,7 @@
 /// @param {sprite} sprite
 /// @param {real} damage
 /// @param {type_damage} type_damage
-/// @param {real} _speed
+/// @param {real} speed
 function Projectile(_sprite, _damage, _type_damage, _speed){
 	return new __class_projectile(_sprite, _damage, _type_damage, _speed);
 }
@@ -9,7 +9,7 @@ function Projectile(_sprite, _damage, _type_damage, _speed){
 /// @param {sprite} sprite
 /// @param {real} damage
 /// @param {type_damage} type_damage
-/// @param {real} _speed
+/// @param {real} speed
 function __class_projectile(_sprite, _damage, _type_damage, _speed) constructor {
 	
 	sprite = _sprite;

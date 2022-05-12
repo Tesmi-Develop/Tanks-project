@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "tank_towers",
-    "path": "folders/Objects/tank_towers.yy",
+    "name": "Towers",
+    "path": "folders/Objects/Tanks/Towers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_new_tank_tower",

@@ -11,7 +11,7 @@ function __class_event() constructor {
 		return __Connection(self, array_length(listeners) - 1);
 	}
 	
-	static fire = function() {
+	static invoke = function() {
 		// Varriables
 		var array_arguments = [];
 		

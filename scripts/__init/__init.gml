@@ -4,12 +4,6 @@ enum rotation {
 	right = -1,
 }
 
-enum movement {
-	forward = 1,
-	stand = 0,
-	back = -1,
-}
-
 enum damage_type {
 	kinetic,
 	thermal,

@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "projectile",
-    "path": "folders/Scripts/projectile.yy",
+    "name": "Projectile",
+    "path": "folders/Scripts/Projectile.yy",
   },
   "resourceVersion": "1.0",
   "name": "Projectile",
