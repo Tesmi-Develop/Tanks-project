@@ -31,7 +31,7 @@
     "path": "folders/Objects/Dev.yy",
   },
   "resourceVersion": "1.0",
-  "name": "camera",
+  "name": "obj_camera",
   "tags": [],
   "resourceType": "GMObject",
 }

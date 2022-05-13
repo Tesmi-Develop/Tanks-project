@@ -52,7 +52,7 @@
     {"id":{"name":"snap_to_csv","path":"scripts/snap_to_csv/snap_to_csv.yy",},"order":1,},
     {"id":{"name":"snap_to_yaml","path":"scripts/snap_to_yaml/snap_to_yaml.yy",},"order":1,},
     {"id":{"name":"snap_from_2d_array","path":"scripts/snap_from_2d_array/snap_from_2d_array.yy",},"order":0,},
-    {"id":{"name":"camera","path":"objects/camera/camera.yy",},"order":0,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":0,},
     {"id":{"name":"spr_tank_tower_small","path":"sprites/spr_tank_tower_small/spr_tank_tower_small.yy",},"order":0,},
     {"id":{"name":"obj_tank_tower","path":"objects/obj_tank_tower/obj_tank_tower.yy",},"order":1,},
     {"id":{"name":"snap_to_gml","path":"scripts/snap_to_gml/snap_to_gml.yy",},"order":1,},

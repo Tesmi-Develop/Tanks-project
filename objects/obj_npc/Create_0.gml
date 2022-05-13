@@ -60,7 +60,6 @@ try_hurt = function(_damage, _type_damage = damage_type.kinetic) {
 	_damage = max(_damage, 1);
 	hp -= _damage;
 	
-	show_debug_message(hp)
 	on_hurt.invoke(_damage);
 }
 
