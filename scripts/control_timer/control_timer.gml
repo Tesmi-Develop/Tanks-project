@@ -12,7 +12,7 @@ function create_timer(_time, _function){
 
 /// @param {timer} timer
 /// @param {real} time
-function activate_timer(_timer, _time){	
+function activate_timer(_timer, _time){
 	_timer.time = _time;
 	_timer.end_time = false;
 }

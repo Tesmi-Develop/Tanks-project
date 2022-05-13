@@ -7,8 +7,8 @@ var movement_vector = direction_vector.multi(Vector2(_speed));
 position_add(movement_vector);
 
 // collision
-if (place_meeting(x, y, self)) {
-	var instance = instance_place(x, y, self);
+if (place_meeting(x, y, all)) {
+	var instance = instance_place(x, y, all);
 	
 	onCollision.invoke(instance);
 }
